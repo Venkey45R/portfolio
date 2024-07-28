@@ -2,6 +2,8 @@ import React from 'react';
 import blog from "../assets/blogs.png";
 import expense from "../assets/expense.png";
 import port from "../assets/port.png";
+import star from "../assets/star.png";
+import to from "../assets/to.png";
 import { motion } from 'framer-motion';
 function Project() {
     const Projects = [
@@ -22,6 +24,18 @@ function Project() {
             image: port,
             description: "Personal portfoilio website showcaseing projects, skills and contact information",
             technologies: ["React", "Tailwind CSS", "Framer"],
+        },
+        {
+            title: "Starbucks Clone",
+            image: star,
+            description: "Starbucks website clone to learn front-end development",
+            technologies: ["Html", "Css", "Java Script"],
+        },
+        {
+            title: "To Do App",
+            image: to,
+            description: "To Do App to plan your day in advance and to be more productive than ever before",
+            technologies: ["React", "Tailwind CSS"],
         },
     ];
 
