@@ -3,7 +3,8 @@ import blog from "../assets/blogs.png";
 import expense from "../assets/expense.png";
 import port from "../assets/port.png";
 import star from "../assets/star.png";
-import to from "../assets/to.png";
+import task from "../assets/task.png";
+import mern from "../assets/mern.png";
 import { motion } from 'framer-motion';
 function Project() {
     const Projects = [
@@ -14,10 +15,10 @@ function Project() {
             technologies: ["React", "Mongo DB", "Express JS", "Node JS", "Tailwind CSS"],
         },
         {
-            title: "Expense Tracker",
-            image: expense,
-            description: "An application to track your expenses that will help you grow your savings and indicate the balance amount using react",
-            technologies: ["React", "Tailwind CSS"],
+            title: "Task Tracker",
+            image: task,
+            description: "A full-stack web application built using the MERN stack for efficient task management. It features a user-friendly interface with light and dark modes, highlighting skills in front-end and back-end development, and responsive design.",
+            technologies: ["React", "Tailwind CSS, Mongo DB", "Node JS", "Express JS"],
         },
         {
             title: "Portfolio website",
@@ -32,11 +33,11 @@ function Project() {
             technologies: ["Html", "Css", "Java Script"],
         },
         {
-            title: "To Do App",
-            image: to,
-            description: "To Do App to plan your day in advance and to be more productive than ever before",
-            technologies: ["React", "Tailwind CSS"],
-        },
+            title: "Expense Tracker",
+            image: mern,
+            description: "Tracks your income, expense, savings and show your progress in graph",
+            technologies: ["React", "Tailwind CSS", "Express JS", "Node JS", "Chart JS"],
+        }
     ];
 
     return (
