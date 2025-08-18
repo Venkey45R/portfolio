@@ -21,12 +21,6 @@ function Project() {
             technologies: ["React", "Tailwind CSS, Mongo DB", "Node JS", "Express JS"],
         },
         {
-            title: "Portfolio website",
-            image: port,
-            description: "Personal portfoilio website showcaseing projects, skills and contact information",
-            technologies: ["React", "Tailwind CSS", "Framer"],
-        },
-        {
             title: "Starbucks Clone",
             image: star,
             description: "Starbucks website clone to learn front-end development",
